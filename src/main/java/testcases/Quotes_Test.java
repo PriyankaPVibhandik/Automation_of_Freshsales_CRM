@@ -43,7 +43,8 @@ public class Quotes_Test extends testBase{
                 .pollingEvery(Duration.ofMillis(500))
                 .ignoring(Exception.class);
         wait.until(driver -> driver.findElement(By.xpath(" /html/body/div[6]/div[4]/div[4]/div/div[1]/div/p/span")).isDisplayed()); 
-        
+
+		//open the quotes page
 		Login_Page.quotesPage();
 		Wait<WebDriver> wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -83,7 +84,8 @@ public class Quotes_Test extends testBase{
                 .pollingEvery(Duration.ofMillis(500))
                 .ignoring(Exception.class);
         wait.until(driver -> driver.findElement(By.xpath(" /html/body/div[6]/div[4]/div[4]/div/div[1]/div/p/span")).isDisplayed()); 
-        
+
+		//open the quotes page
 		Login_Page.quotesPage();
 		Wait<WebDriver> wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -122,7 +124,8 @@ public class Quotes_Test extends testBase{
                 .pollingEvery(Duration.ofMillis(500))
                 .ignoring(Exception.class);
         wait.until(driver -> driver.findElement(By.xpath(" /html/body/div[6]/div[4]/div[4]/div/div[1]/div/p/span")).isDisplayed()); 
-        
+
+		//open the quotes page
 		Login_Page.quotesPage();
 		Wait<WebDriver> wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -160,7 +163,8 @@ public class Quotes_Test extends testBase{
                 .pollingEvery(Duration.ofMillis(500))
                 .ignoring(Exception.class);
         wait.until(driver -> driver.findElement(By.xpath(" /html/body/div[6]/div[4]/div[4]/div/div[1]/div/p/span")).isDisplayed()); 
-        
+
+		//open the quotes page
 		Login_Page.quotesPage();
 		Wait<WebDriver> wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -200,7 +204,8 @@ public class Quotes_Test extends testBase{
                 .pollingEvery(Duration.ofMillis(500))
                 .ignoring(Exception.class);
         wait.until(driver -> driver.findElement(By.xpath(" /html/body/div[6]/div[4]/div[4]/div/div[1]/div/p/span")).isDisplayed()); 
-        
+
+		//open the quotes page
 		Login_Page.quotesPage();
 		Wait<WebDriver> wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -238,7 +243,8 @@ public class Quotes_Test extends testBase{
                 .pollingEvery(Duration.ofMillis(500))
                 .ignoring(Exception.class);
         wait.until(driver -> driver.findElement(By.xpath(" /html/body/div[6]/div[4]/div[4]/div/div[1]/div/p/span")).isDisplayed()); 
-        
+
+		//open the quotes page
 		Login_Page.quotesPage();
 		Wait<WebDriver> wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
