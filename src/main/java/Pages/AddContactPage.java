@@ -1,5 +1,6 @@
 package Pages;
 
+import Freshsales_Automation.testBase;
 import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,10 +11,10 @@ import org.openqa.selenium.WebElement;
 import base.BaseTest;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-public class AddContactPage extends BaseTest{
+public class AddContactPage extends testBase{//BaseTest
 	
 	public AddContactPage(WebDriver driver) {
-        BaseTest.driver = driver;
+        testBase.driver = driver;    //BaseTest.driver = driver;
     }
 	
 	public void addcontactbtn() throws InterruptedException
