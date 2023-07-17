@@ -1,5 +1,6 @@
 package Pages;
 
+import Freshsales_Automation.testBase;
 import java.time.Duration;
 import org.openqa.selenium.JavascriptExecutor;
 import java.util.List;
@@ -11,11 +12,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import base.BaseTest;
+//import base.BaseTest;
 
-public class Quotes extends BaseTest {
+public class Quotes extends testBase {//BaseTest
 	public Quotes(WebDriver driver) {
-        BaseTest.driver = driver;
+        testBase.driver = driver;           //BaseTest.driver = driver;
     }
 	
 	public void dealbtn() throws InterruptedException {
