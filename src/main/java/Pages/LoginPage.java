@@ -1,13 +1,14 @@
 package Pages;
 
+import Freshsales_Automation.testBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import base.BaseTest;
 
-public class LoginPage extends BaseTest {
+public class LoginPage extends testBase {//BaseTest
 	 public LoginPage(WebDriver driver) {
-	        BaseTest.driver = driver;
+	        testBase.driver = driver;   //BaseTest.driver = driver;
 	    }
 	 public void email()
 	 {
