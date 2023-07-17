@@ -1,14 +1,15 @@
 package testcases;
 
+import Freshsales_Automation.testBase;
 import org.testng.annotations.Test;
 
 import Pages.LoginPage;
-import base.BaseTest;
-import Pages.LoginPage;
+//import base.BaseTest;
+//import Pages.LoginPage;
 import Pages.AddContactPage;
 
 
-public class AddContactTest extends BaseTest {
+public class AddContactTest extends testBase {//BaseTest
 
     @Test
 	public void addcontactest() throws InterruptedException {
