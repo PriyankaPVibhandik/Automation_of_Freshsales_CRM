@@ -1,5 +1,6 @@
 package Pages;
 
+import Freshsales_Automation.testBase;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -8,11 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import base.BaseTest;
+//import base.BaseTest;
 
-public class groupAndSortPage extends BaseTest {
+public class groupAndSortPage extends testBase {//BaseTest
 	public groupAndSortPage(WebDriver driver) {
-        BaseTest.driver = driver;
+        testBase.driver = driver;   //BaseTest.driver = driver;
     }
 	
 	public void group() throws InterruptedException {
