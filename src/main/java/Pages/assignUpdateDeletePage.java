@@ -1,5 +1,6 @@
 package Pages;
 
+import Freshsales_Automation.testBase;
 import java.time.Duration;
 import java.util.List;
 
@@ -9,9 +10,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import base.BaseTest;
+//import base.BaseTest;
 
-public class assignUpdateDeletePage extends BaseTest {
+public class assignUpdateDeletePage extends testBase {// BaseTest
 	public void dealbtn2() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50)); // 10 seconds timeout
 
