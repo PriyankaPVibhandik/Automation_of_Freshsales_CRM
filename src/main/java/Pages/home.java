@@ -23,7 +23,7 @@ public class home extends testBase{
     @FindBy(xpath ="//a[@aria-label=\"https://www.freshworks.com/crm/login/\"]")//.click();
     WebElement GoToAccount;
     
-    @FindBy(xpath ="/html/body/section/div/div/div[1]/div/form/fieldset/div/div[1]/input")//.sendKeys("svkm-org");
+    @FindBy(xpath ="/html/body/section/div/div/div[1]/div/form/fieldset/div/div[1]/input")//.sendKeys("svkm-org"); enter your CRM org.
     WebElement ORG;
     
     @FindBy(xpath ="/html/body/section/div/div/div[1]/div/form/input[2]")//.click();
