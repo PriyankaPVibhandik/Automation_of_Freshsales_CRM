@@ -7,6 +7,7 @@
 			<class name = "Freshsales_Automation.loginTest"></class>
 			<class name = "Freshsales_Automation.Products_Test"></class>
 			<class name = "Freshsales_Automation.Quotes_Test"></class>
+			
 			<class name = "testcases.AddContactTest"></class>
 			<class name = "testcases.GroupTest"></class>
 			<class name = "testcases.QuoteTest"></class>
