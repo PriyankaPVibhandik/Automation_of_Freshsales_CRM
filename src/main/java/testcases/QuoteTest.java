@@ -1,13 +1,14 @@
 package testcases;
 
+import Freshsales_Automation.testBase;
 import org.testng.annotations.Test;
 
 import Pages.LoginPage;
 import Pages.Quotes;
 import Pages.groupAndSortPage;
-import base.BaseTest;
+//import base.BaseTest;
 
-public class QuoteTest extends BaseTest{
+public class QuoteTest extends testBase{ //BaseTest
 	@Test
 	public void quotetest() throws InterruptedException {
 		LoginPage loginPage = new LoginPage(driver);
