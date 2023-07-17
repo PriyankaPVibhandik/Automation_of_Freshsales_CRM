@@ -15,7 +15,7 @@ public class ReadPropertyFile {
 		
 		p.load(fr);
 		
-		System.out.println(p.getProperty("browser"));
+		System.out.println(p.getProperty("browser2"));
 		System.out.println(p.getProperty("testurl"));
 
 	}
