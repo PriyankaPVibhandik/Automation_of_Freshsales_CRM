@@ -4,7 +4,7 @@ import Freshsales_Automation.testBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import base.BaseTest;
+//import base.BaseTest;
 
 public class LoginPage extends testBase {//BaseTest
 	 public LoginPage(WebDriver driver) {
