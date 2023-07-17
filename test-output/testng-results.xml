@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-16T17:17:53 IST" name="Default suite" finished-at="2023-07-16T17:19:17 IST" duration-ms="83216">
+    <groups>
+    </groups>
+    <test started-at="2023-07-16T17:17:53 IST" name="Default test" finished-at="2023-07-16T17:19:17 IST" duration-ms="83216">
+      <class name="Freshsales_Automation.Quotes_and_Products_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Freshsales_Automation.Quotes_and_Products_Test@35cabb2a]" started-at="2023-07-16T17:17:53 IST" name="setup" finished-at="2023-07-16T17:18:17 IST" duration-ms="23487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Delete_Products_no()[pri:14, instance:Freshsales_Automation.Quotes_and_Products_Test@35cabb2a]" started-at="2023-07-16T17:18:17 IST" name="Delete_Products_no" description="To verify that the assignee is able to delete a field in the Products section and once the cancel button is clicked user should navigate back to the parent page." finished-at="2023-07-16T17:19:17 IST" duration-ms="59649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Products_no -->
+      </class> <!-- Freshsales_Automation.Quotes_and_Products_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

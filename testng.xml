@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Freshsales Automation">
+<!--	<suite name = "OrangeHRM Open Source HR management" parallel = "methods" thread-count = "2">-->
+	<test name = "Freshsales Test Cases">
+		<classes>
+			<class name = "Freshsales_Automation.loginTest"></class>
+			<class name = "Freshsales_Automation.Products_Test"></class>
+			<class name = "Freshsales_Automation.Quotes_Test"></class>
+		</classes>
+	</test>
+</suite>
